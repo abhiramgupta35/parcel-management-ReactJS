@@ -1,0 +1,81 @@
+.parcel-list {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to right, #FFF8F1, #FEECDC);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.parcel-list h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.department-section {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+
+.department-header {
+    font-size: 30px;
+    color: #444;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+
+.department-section ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.parcel-item {
+    padding: 15px;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.parcel-item:hover {
+    transform: translateY(-5px);
+}
+
+
+.parcel-item strong {
+    font-weight: 600;
+    color: #333;
+}
+
+
+@media (max-width: 768px) {
+    .department-section ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .department-section ul {
+        grid-template-columns: 1fr; 
+    }
+
+    .parcel-item {
+        font-size: 12px;
+    }
+}
