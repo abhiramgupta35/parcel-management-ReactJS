@@ -16,7 +16,7 @@ const List = () => {
                     id: doc.id,
                     ...doc.data()
                 }));
-                console.log("Fetched data: ", parcelsData);
+                console.log("fetched data: ", parcelsData);
                 setParcels(parcelsData);
             } catch (error) {
                 console.error("Error fetching parcels: ", error);
@@ -33,6 +33,7 @@ const List = () => {
         acc[department].push(parcel);
         return acc;
     }, {});
+    console.log(categorizedParcels)
 
     return (
         <div className="parcel-list">
