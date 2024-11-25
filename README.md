@@ -20,14 +20,13 @@ Automatic Sorting
 
  ##     How to Run
 -Clone this repository.
+-Configure Firebase in firebase.js with your project details.
 -Install dependencies:
 -npm install
 -Start the development server
+-npm start
 
-
- ## npm start
--Configure Firebase in firebase.js with your project details.
-Usage
+ ## Usage
 -Add parcel details like weight, value, receiver’s name, address, etc.
 -View categorized parcels in the Parcel List page.
 -Departments and business rules are automatically applied based on the data.
