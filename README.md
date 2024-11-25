@@ -33,6 +33,7 @@ Usage
 -Departments and business rules are automatically applied based on the data.
 
  ## Screenshots
+ ![App Screenshot](https://github.com/abhiramgupta35/parcel-management-ReactJS/blob/5e2ca42e3247d38f01de5f1e438c827b9b897e8d/public/photo-collage.png.png)
 
 Parcel Form: Add parcel details.
 Parcel List: View sorted parcels by department.
